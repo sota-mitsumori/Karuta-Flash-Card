@@ -22,7 +22,7 @@ BLACK = (0, 0, 0)
 GRAY = (200, 200, 200)
 DARK_GRAY = (100, 100, 100)
 
-card_directory = r"C:\Users\Sota Hideki\Documents\Python Game\Karuta\images"
+card_directory = set/your/own/file/directory
 
 # 画像の読み込み（仮に1から100までの画像があると仮定）
 cards = [os.path.join(card_directory, f"torifuda ({i}).jpg") for i in range(1, 101)]
